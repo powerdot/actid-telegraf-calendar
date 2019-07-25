@@ -3,8 +3,8 @@
 		"CALENDAR_BOT_TOKEN": "@calendar-bot-token",
 		"CALENDAR_BOT_PORT": "@calendar-bot-port"
 	},
-	"alias": "telegraf-calendar-telegram",
-	"name": "telegraf-calendar-telegram",
+	"alias": "actid-telegraf-calendar",
+	"name": "actid-telegraf-calendar",
 	"files": [
 		"bin/www",
 		"bot",

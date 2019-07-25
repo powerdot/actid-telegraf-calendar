@@ -1,62 +1,19 @@
 {
-  "_from": "telegraf-calendar-telegram",
-  "_id": "telegraf-calendar-telegram@1.5.7",
-  "_inBundle": false,
-  "_integrity": "sha512-hz8Z3ZEF3zDzgqzl6HQ5c4dyPAP3SUE3Z/QfHQCztlPCT3Kxd1Xs0fV1+Tg6aVcfE5XRIaz4BNey4BxshqCRaQ==",
-  "_location": "/telegraf-calendar-telegram",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "tag",
-    "registry": true,
-    "raw": "telegraf-calendar-telegram",
-    "name": "telegraf-calendar-telegram",
-    "escapedName": "telegraf-calendar-telegram",
-    "rawSpec": "",
-    "saveSpec": null,
-    "fetchSpec": "latest"
-  },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/telegraf-calendar-telegram/-/telegraf-calendar-telegram-1.5.7.tgz",
-  "_shasum": "f75105bd23bb803759dfcc4b74f94ca84d94e182",
-  "_spec": "telegraf-calendar-telegram",
-  "_where": "/Users/ilarycagov/dev/telegram/mamoonia_v1",
-  "author": {
-    "name": "gianlucaparadise",
-    "email": "gianlucaparadise@gmail.com",
-    "url": "https://github.com/gianlucaparadise"
-  },
-  "bugs": {
-    "url": "https://github.com/gianlucaparadise/telegraf-calendar-telegram/issues"
-  },
-  "bundleDependencies": false,
-  "dependencies": {
-    "telegraf": "^3.25.0"
-  },
-  "deprecated": false,
-  "description": "Inline calendar for Telegram bots using Telegraf framework",
-  "devDependencies": {
-    "eslint": "^3.19.0"
-  },
-  "homepage": "https://github.com/gianlucaparadise/telegraf-calendar-telegram#readme",
-  "keywords": [
-    "telegram",
-    "bot",
-    "telegraf",
-    "calendar"
-  ],
-  "license": "Apache-2.0",
+  "name": "actid-telegraf-calendar",
+  "version": "1.0.0",
+  "description": "",
   "main": "index.js",
-  "name": "telegraf-calendar-telegram",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gianlucaparadise/telegraf-calendar-telegram.git"
+    "url": "git+https://github.com/powerdot/actid-telegraf-calendar.git"
   },
-  "scripts": {
-    "deploy": "now --public && now alias && now remove telegraf-calendar-telegram --safe -y",
-    "start": "node bin/www"
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/powerdot/actid-telegraf-calendar/issues"
   },
-  "version": "1.5.7"
+  "homepage": "https://github.com/powerdot/actid-telegraf-calendar#readme"
 }
